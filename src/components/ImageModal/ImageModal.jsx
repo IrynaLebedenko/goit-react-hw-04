@@ -1,6 +1,6 @@
 import Modal from "react-modal";
 
-import css from "./Modal.module.css";
+import css from "./ImageModal.module.css";
 
 const ImageModal = ({ closeModal, IsOpen, photo }) => {
   const customStyles = {

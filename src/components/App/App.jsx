@@ -7,7 +7,7 @@ import { getPhotos } from "../../components/Api/Photos";
 import LoadMoreBtn from "../../components/LoadMoreBtn/LoadMoreBtn";
 import Loader  from "../../components/Loader/Loader";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
-import ImageModal from "../../components/Modal/Modal";
+import ImageModal from "../ImageModal/ImageModal";
 
 import css from "./App.module.css";
 
