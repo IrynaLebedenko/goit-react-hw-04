@@ -23,6 +23,10 @@
     color: gray;
     cursor: pointer;
   }
+
+  .button:hover {
+    color: aqua;
+  }
   
   .input {
     border: none;
