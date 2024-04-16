@@ -7,14 +7,14 @@
   }
   
   .listItem {
-    width: calc((100% - 30px) / 3);
-    height: 200px;
+    width: calc((100% - 45px) / 4);
+    height: 230px;
     position: relative;
     transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
   }
   
   .listItem:hover {
-    transform: scale(1.05);
+    transform: scale(1.08);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }

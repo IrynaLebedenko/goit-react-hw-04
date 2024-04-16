@@ -6,7 +6,7 @@ axios.defaults.headers["Authorization"] = `Client-ID ${API_KEY}`;
 // axios.defaults.headers.common["Version"] = "Accept-Version: v1";
 axios.defaults.params = {
   orientation: "landscape",
-  per_page: 15,
+  per_page: 16,
 };
 
 export const getPhotos = async (query, page) => {
