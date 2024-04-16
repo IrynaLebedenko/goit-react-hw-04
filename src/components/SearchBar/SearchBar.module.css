@@ -1,6 +1,6 @@
 .header {
-    /* background-color: #443eee; */
-    padding: 5px 0;
+   
+    padding: 15px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     background-color: white;
+    border: 1px solid black;
     border-radius: 10px;
     padding: 5px;
   }

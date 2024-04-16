@@ -25,11 +25,11 @@ const ImageModal = ({ closeModal, IsOpen, photo }) => {
               alt={photo.alt_description}
             />
             <div className={css.modalWrap}>
-              <img
+              {/* <img
                 className={css.author}
                 src={photo.user.profile_image.medium}
                 alt={photo.user.username}
-              />
+              /> */}
               <p>Author: {photo.user.username}</p>
               {/* <p>likes:{photo.likes}</p> */}
             </div>

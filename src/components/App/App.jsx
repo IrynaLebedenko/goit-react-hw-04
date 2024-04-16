@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 import Modal from "react-modal";
 
 import SearchBar from "../../components/SearchBar/SearchBar";
-import { getPhotos } from "../components/Api/Photos";
+import { getPhotos } from "../../components/Api/Photos";
 import LoadMoreBtn from "../../components/LoadMoreBtn/LoadMoreBtn";
-import { Loader } from "../../components/Loader/Loader";
+import Loader  from "../../components/Loader/Loader";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
 import ImageModal from "../../components/Modal/Modal";
 
