@@ -1,0 +1,31 @@
+.header {
+    /* background-color: #443eee; */
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .button {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .input {
+    border: none;
+    padding: 5px 10px;
+    width: 280px;
+    outline: none;
+  }

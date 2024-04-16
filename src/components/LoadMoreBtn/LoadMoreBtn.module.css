@@ -1,0 +1,13 @@
+.BtnWrap {
+    text-align: center;
+    margin: 0 auto 20px auto;
+  }
+  
+  .button {
+    background-color: #15e0d9;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+  }
