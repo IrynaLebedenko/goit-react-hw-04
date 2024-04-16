@@ -2,12 +2,12 @@
 import { useEffect, useState } from "react";
 import Modal from "react-modal";
 
-import SearchBar from "../../SearchBar/SearchBar";
+import SearchBar from "../../components/SearchBar/SearchBar";
 import { getPhotos } from "../components/Api/Photos";
-import LoadMoreBtn from "../../LoadMoreBtn/LoadMoreBtn";
-import { Loader } from "../../Loader/Loader";
-import ImageGallery from "../../ImageGallery/ImageGallery";
-import ImageModal from "../../Modal/Modal";
+import LoadMoreBtn from "../../components/LoadMoreBtn/LoadMoreBtn";
+import { Loader } from "../../components/Loader/Loader";
+import ImageGallery from "../../components/ImageGallery/ImageGallery";
+import ImageModal from "../../components/Modal/Modal";
 
 import css from "./App.module.css";
 
